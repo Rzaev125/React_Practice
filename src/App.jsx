@@ -6,6 +6,10 @@ import UseMemo from "./component/Hooks/UseMemo"
 import UseContext from "./component/Hooks/UseContext"
 import UseReducer from "./component/Hooks/UseReducer"
 import { Counter } from "./component/Redux/counter"
+import CounterJotai from "./component/Jotai/CounterJotai"
+import ThemeJotai from "./component/Jotai/ThemeJotai"
+import DotsAtom from "./component/Jotai/DotsAtom"
+import TestJotai from "./component/Jotai/TestJotai"
 
 function App() {
   return (
@@ -17,7 +21,11 @@ function App() {
       {/* <UseMemo /> */}
       {/* <UseContext /> */}
       {/* <UseReducer /> */}
-      <Counter />
+      {/* <Counter /> */}
+      {/* <CounterJotai /> */}
+      {/* <ThemeJotai /> */}
+      {/* <DotsAtom /> */}
+      {/* <TestJotai /> */}
     </>
   )
 }
