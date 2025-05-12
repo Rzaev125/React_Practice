@@ -10,6 +10,7 @@ import CounterJotai from "./component/Jotai/CounterJotai"
 import ThemeJotai from "./component/Jotai/ThemeJotai"
 import DotsAtom from "./component/Jotai/DotsAtom"
 import TestJotai from "./component/Jotai/TestJotai"
+import WeatherAPI from "./component/API/WeatherAPI"
 
 function App() {
   return (
@@ -26,6 +27,7 @@ function App() {
       {/* <ThemeJotai /> */}
       {/* <DotsAtom /> */}
       {/* <TestJotai /> */}
+      <WeatherAPI />
     </>
   )
 }
