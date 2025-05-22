@@ -11,6 +11,8 @@ import ThemeJotai from "./component/Jotai/ThemeJotai"
 import DotsAtom from "./component/Jotai/DotsAtom"
 import TestJotai from "./component/Jotai/TestJotai"
 import WeatherAPI from "./component/API/WeatherAPI"
+import MotionPractice from "./component/FramerMotion/MotionPractice"
+import ScrollTriggered from "./component/FramerMotion/ScrollTriggered"
 
 function App() {
   return (
@@ -27,7 +29,9 @@ function App() {
       {/* <ThemeJotai /> */}
       {/* <DotsAtom /> */}
       {/* <TestJotai /> */}
-      <WeatherAPI />
+      {/* <WeatherAPI /> */}
+      {/* <MotionPractice /> */}
+      <ScrollTriggered />
     </>
   )
 }
